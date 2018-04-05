@@ -1,0 +1,502 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: #f4f4f4;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background:#BB77FE;
+    margin: 0;
+    z-index: 5000000;
+    transition: 0.5s linear all;
+}
+
+.logo {
+    width: 20%;
+    height: 60px;
+    margin:0;
+    float: left;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+.logo h1 {
+    font-family: "Leelawadee UI";
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.logo h1 span {
+    color: #47E1BD;
+}
+
+.menu {
+    width: 60%;
+    margin: 0 5%;
+    float: right;
+    margin-top: 40px;
+}
+.menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 8px 18px;
+    font-size: 18px;
+}
+
+.menu ul li a {
+    padding: 1px 0;
+    text-decoration: none;
+    color: #e8e8e8;
+    font-family: "Leelawadee UI";
+    font-weight: 600;
+    transition: 0.5s linear all;
+}
+.menu ul li div {
+    height: 3px;
+    width: 100%;
+    background: #47E1BD;
+    transition: 0.6s ease all;
+    transform: scale(1,1);
+}
+
+#appscreen {
+    height: 638px;
+    width: 100%;
+    background: #BB77FE;
+    position: relative;
+    z-index: 10000;
+}
+
+.app-data {
+    float: left;
+    width: 35%;
+    margin: 140px 0;
+    margin-left: 10%;
+}
+
+.app-data h2 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 42px;
+    font-family: "Leelawadee UI";
+    font-weight: 900;
+}
+
+.app-data p {
+    color: rgba(255, 255, 255, 0.70);
+    font-weight: 200;
+    font-size: 26px;
+    font-family: "Leelawadee UI";
+}
+
+.app-data button {
+    color: white;
+    background: #47E1BD;
+    border: none;
+    border-radius: 1px;
+    font-family: "Leelawadee UI";
+    font-weight: 100;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app-image {
+    float: left;
+    margin-left: 10%;
+    width: 35%;
+}
+.app-image img {
+    width: 23%;
+    margin-left: 8%;
+    margin-top: 80px;
+    height: 620px;
+}
+
+#img {
+    position: absolute;
+}
+
+#img2 {
+    position: absolute;
+    width: 21.2%;
+    height: 498px;
+    margin: 140px 8.9%;
+    border-radius: 1px;
+}
+
+#services {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background: #f4f4f4;
+}
+.our-services, .our-Apps, .ourPricing {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    margin:0 25%;
+    padding: 100px 0 0 0;
+}
+
+.our-Apps, .ourPricing {
+    padding: 50px 0;
+}
+.our-services h2, .our-Apps h2, .ourPricing h2 {
+    font-size: 50px;
+    font-family: "Leelawadee UI";
+    font-weight: 200;
+    color: black;
+    filter: blur(0.2px);
+}
+
+.our-services p, .our-Apps p, .ourPricing p {
+    font-family: "Leelawadee UI";
+    font-weight: 100;
+    color: #c4c4c4;
+    font-size: 32px;
+}
+
+.services-all {
+    width: 90%;
+    height: 500px;
+    margin: 40px 5%;
+}
+
+.service {
+    float: left;
+    height: 400px;
+    width: 27%;
+    margin: 120px 3.1%;
+    margin-bottom: 40px;
+}
+
+#child1 {
+    transition: 1s ease all;
+    opacity: 0;
+}
+
+#child2 {
+    transition: 1.8s ease all;
+    opacity: 0;
+}
+
+#child3 {
+    transition: 2.6s ease all;
+    opacity: 0;
+}
+
+.service-image {
+    height: 80px;
+    width: 40%;
+    text-align: center;
+    margin: 10px 30%;
+}
+
+.service-image img {
+    width: 75%;
+    height: 100%;
+}
+
+.service-data {
+    text-align: center;
+}
+
+.service-data h3 {
+    color: black;
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "Leelawadee UI";
+    padding: 5px 0;
+}
+
+.service-data p {
+    color: #777777;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: "Leelawadee UI";
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+#Animations {
+    position: relative;
+    background: #303841;
+    height: 1100px;
+    width: 100%;
+}
+
+
+.animations {
+    height: 500px;
+    width: 100%;
+    margin: 170px 0 50px 0;
+    overflow: hidden;
+}
+
+
+.animations-long {
+    width: 90000px;
+    height: 500px;
+    position: relative;
+    left:540px;
+    transition: 2s ease all;
+}
+
+.animatedApp {
+    height: 360px;
+    width: 220px;
+    background: #303841;
+    float: left;
+    margin:50px 20px;
+    border-radius: 5px;
+    transition: 2s ease all;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.1);
+}
+
+#anime1 {
+    height: 400px;
+    width: 260px;
+    margin: 30px;
+}
+
+.animatedApp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.spans {
+    width: 10%;
+    height: 60px;
+    margin: 0 45%;
+    text-align: center;
+}
+
+.spans span {
+    width: 7px;
+    height: 7px;
+    margin: 0 5px;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    background: transparent;
+    border: 1px solid rgba(224, 224, 224, 0.67);
+    cursor: pointer;
+}
+
+.spans span:hover {
+    border: 1px solid white;
+}
+
+#Pricing {
+    position:relative;
+    height: 1100px;
+    width: 100%;
+    background: white;
+}
+
+.pricingApps {
+    height: 650px;
+    width: 95%;
+    margin: 100px 2.5% 50px 2.5%;
+}
+.pricingApp {
+    width: 22%;
+    height: 600px;
+    margin:25px 1.4%;
+    float: left;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.pricingType {
+    height: 10%;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.pricingType h2 {
+    font-family: "Leelawadee UI";
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.price {
+    width: 100%;
+    height: 15%;
+    margin: 5% 0;
+}
+
+
+.priceCurrency {
+    width: 16%;
+    height: 100%;
+    margin-left: 19%;
+    float: left;
+}
+
+.priceCurrency h6 {
+    font-weight: 400;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+    float: right;
+    margin: 0;
+    padding: 10px 0;
+}
+.priceNumber {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+}
+
+.priceNumber h3 {
+    font-family:"Leelawadee UI";
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.priceMonthly {
+    width: 20%;
+    height: 40%;
+    margin: 10.3% 0 0 0;
+    float: left;
+}
+
+.priceMonthly p {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Leelawadee UI";
+    margin: 0;
+}
+
+.priceMonthly p span {
+    font-weight: 100;
+}
+
+#pricingAppSpecial {
+    border: 1px solid #47E1BD;
+}
+
+.pricingComment {
+    width: 80%;
+    height: 10%;
+    margin:0 10%;
+    text-align: center;
+}
+
+.pricingComment h2 {
+    font-weight: 200;
+    color: #a0a0a0;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    background: #d0d0d0;
+    margin: 20px 15%;
+}
+
+.pricingList {
+    text-align: center;
+    margin: 20px;
+}
+
+.pricingList p {
+    font-family: "Leelawadee UI";
+    font-size: 16px;
+    color: #b0b0b0;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.pricingList button {
+    background: #1fe18d;
+    border-radius: 1px;
+    padding:8px 15px;
+    font-size: 18px;
+    font-family: "Leelawadee UI";
+    border: none;
+    margin: 20px 0;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.pricingList button:hover {
+    background: #303841;
+}
+
+.note {
+    width: 40%;
+    height: 40px;
+    background: #1fe18d;
+    border-radius: 2px;
+    position: relative;
+    margin-left: 30%;
+    top:-595px;
+    text-align: center;
+}
+
+.note p {
+    font-size: 20px;
+    color: white;
+    font-family: "Leelawadee UI";
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+
+#Acomplishements {
+    width: 100%;
+    height: 350px;
+    background: #705d66;
+    position: relative;
+}
+
+.imageTrust {
+    width: 60%;
+    height: 120px;
+    margin: 100px 0% 0 22%;
+    float: left;
+}
+
+.imgTrust {
+    width: 22%;
+    height: 100px;
+    float: left;
+    margin: 0 1.5%;
+}
+
+.imgTrust img {
+    width: 50%;
+    height: 80%;
+}
